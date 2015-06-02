@@ -6,6 +6,6 @@ RUN mkdir -p /app
 WORKDIR /app
 COPY ./static /app/
 COPY ./public /public
-EXPOSE 80
+EXPOSE 8080
 
-CMD ["/bin/sh"]
+CMD ["/app/static"]
