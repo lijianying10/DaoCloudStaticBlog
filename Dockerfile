@@ -1,7 +1,7 @@
 FROM scratch
 MAINTAINER Jianying Li <lijianying12@gmail.com>
 
-ADD ./rootfs.tar /
+ADD ./rootfs.tar / #test
 RUN mkdir -p /app
 WORKDIR /app
 COPY ./static /app/
